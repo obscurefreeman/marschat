@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>火星邮局</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- <video autoplay loop muted>
+            <source src="bg.webm" type="video/webm">
+        </video> -->
+        <!-- <div id="particles-container"></div> -->
+        <div class="container">
+            <header>
+                <h1>新邮件</h1>
+            </header>
+            <div class="banner">
+                <marquee behavior="scroll" direction="left">重要消息：由于火星人口急剧减少，本网站即将停止维护，并在一个月之内永久关停，感谢大家长久以来的支持。</marquee>
+            </div>
+            <section>
+
+                <form>
+                    <label for="email">收件：</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="name">主题：</label>
+                    <input type="text" id="message" name="message" required><br><br>
+                    <label for="message">正文：</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    <input type="submit" value="提交">
+                </form>
+            </section>
+            <footer>
+                <p>©2124 火星移民局 保留所有权利。所有商标均为其在火星及其它星球/地区的各自持有者所有。</p>
+            </footer>
+        </div>
+        <a class="float-button" href="message.html">🏠</a>
+    </body>
+</html>
